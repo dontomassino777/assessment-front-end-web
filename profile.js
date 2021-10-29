@@ -8,11 +8,11 @@ favColBtn.addEventListener("click",() => {
 })
 
 favPlBtn.addEventListener("click", () => {
-    alert("Wherever I am at that moment")
+    alert("Wherever I am at that very moment.")
 })
 
 favRitBtn.addEventListener("click", () => {
-    alert("Practicing Transcendental Meditation 20 minutes a day")
+    alert("Practicing Transcendental Meditation 20 minutes a day.")
 })
 
 
