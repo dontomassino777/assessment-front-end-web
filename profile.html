@@ -1,6 +1,66 @@
-Not implemented yet! 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile</title>
+	<link href="styles.css" rel="stylesheet">
 
-<br>
-<br>
+</head>
+<body class="body">
 
 <a href="./home.html"><< Back </a>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+
+<header>
+    <h1>Tomás Fisher</h1>
+    <img src="profilepic.png"id="profile-pic">
+</header>
+    <h2>Skills</h2>
+        <div class="profiledivs" id="skillsdiv">
+            <ul>Strength Level: 7</ul>
+            <ul>Max Back Lever Hold: 15s</ul>
+            <ul>Max FS Handstand Pushups: 4</ul>
+            <ul>Special Attack: none</ul>
+        </div>
+
+    <h2>Interests</h2>
+        <div class="profiledivs" id="interstsdiv">
+            <ul>Calisthenics</ul>
+            <ul>Music</ul>
+            <ul>Chess</ul>
+            <ul>Radiohead</ul>
+        </div>
+    
+    <h2>Feedback</h2>
+        <div class="profiledivs" id="feedbackdiv">
+            <form id="feedback">
+            <label class="question">What new skill should I learn?</label>
+            <input type="radio" name="newskill" id="front-lever">Front Lever
+            <input type="radio" name="newskill" id="python">Python
+            <input type="radio" name="newskill" id="telekenisis">Telekenisis
+            <br>
+            <br>
+            <label class="question">What interest should I look into?</label>
+            <input type="radio" name="newinterest" id="baking">Baking
+            <input type="radio" name="newinterest" id="sky-diving">Sky-diving
+            <input type="radio" name="newinterest" id="palm-reading">Palm-reading
+            <br>
+            <br>
+            <input id="submitbutton" type="submit">
+            </form>
+        </div>
+<br>
+<br>
+<button class="pref-buttons" id="color">My Favorite Color</button>
+<button class="pref-buttons" id="place">My Favorite Place</button>
+<button class="pref-buttons" id="ritual">My Favorite Ritual</button>
+    
+<script src="profile.js"></script>
+
+</body>
+</html>
